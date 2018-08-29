@@ -1,5 +1,10 @@
 # pg_stats
-simple script to get slowest queries on PostgreSQL database.
+simple script to export slowest queries on PostgreSQL database in csv file.
+
+## Prerequisites
+
+`pg_stat_statements` must be loaded (see [PostgreSQL documentation](https://www.postgresql.org/docs/10/static/pgstatstatements.html)).
+
 
 ## Usage
 
